@@ -1,6 +1,7 @@
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("¡Hola mundo!");
+        System.out.println("adios mundo cruel");
         System.out.println(sumar(10, 5));
         System.out.println(multiplicar(10, 5));
         System.out.println(restar(10, 5));
