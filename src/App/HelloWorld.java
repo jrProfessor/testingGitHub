@@ -3,6 +3,7 @@ public class HelloWorld {
         System.out.println("¡Hola mundo!");
         System.out.println(sumar(10, 5));
         System.out.println(multiplicar(10, 5));
+        System.out.println(restar(10, 5));
     }
 
     public static int sumar(int x, int y){
@@ -10,5 +11,9 @@ public class HelloWorld {
     }
     public static int multiplicar(int x, int y){
         return x*y;
+    }
+    public static int restar(int x, int y){
+        return x-y;
+
     }
 }
